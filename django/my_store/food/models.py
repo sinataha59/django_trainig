@@ -25,9 +25,10 @@ class order(models.Model):
     CANCELEDORDER = 'C'
     
     ORDERSTATUS =[
-        (PAIDORDER,"paid")
-        (UNPAIDORDER,"unpaid")
-        (CANCELEDORDER,"canceled")
+        (PAIDORDER,"paid"),
+        (UNPAIDORDER,"unpaid"),
+        (CANCELEDORDER,"canceled"),
+        
         
     ]
     
